@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "158110483996",
+    "firebase_url": "https://invento-c23-pc634-default-rtdb.firebaseio.com",
+    "project_id": "invento-c23-pc634",
+    "storage_bucket": "invento-c23-pc634.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158110483996:android:a19a41c06b16624b67c1d9",
+        "android_client_info": {
+          "package_name": "com.rafial.invento"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158110483996-ou1oq3q42c291mjidbtif5heists61cp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rafial.invento",
+            "certificate_hash": "a8dec5e09baf8c63ea36081393860c813be13173"
+          }
+        },
+        {
+          "client_id": "158110483996-bsnu7g1q2i5plra41cmd35pc5qvb6uf4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKrfwPKth5mB5Ge2e8jBxd_LumgJ9uw-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158110483996-bsnu7g1q2i5plra41cmd35pc5qvb6uf4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

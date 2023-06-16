@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.InterestActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/submit"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_ket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="@string/what_s_your_interests"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_ket">
+
+                <CheckBox
+                    android:id="@+id/ck_educational"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Educational"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_social"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Social"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_photography"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Photography"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_travel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Travel"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Home"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_lifestyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Lifestyle"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_games"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Games"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_sports"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Sports"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_fashion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Fashion"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_technology"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Technology"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_parenting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Parenting"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toStartOf="@+id/linearLayout2"
+                app:layout_constraintStart_toEndOf="@+id/linearLayout3"
+                app:layout_constraintTop_toBottomOf="@+id/tv_ket">
+
+                <CheckBox
+                    android:id="@+id/ck_productivity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Productivity"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_tools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Tools"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_fitness"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Fitness"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_creativity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Creativity"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_design"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Design"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_art"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Art"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_environment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Environment"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_science"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Science"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_sales"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Sales"
+                    android:textColor="@color/black" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_ket">
+
+                <CheckBox
+                    android:id="@+id/ck_management"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Management"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_entertainment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Entertainment"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_communication"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Communication"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_music"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Music"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_video"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Video"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_vehicles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Vehicles"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_food"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Food"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_drink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Drink"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_health"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Health"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_audio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Audio"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_beauty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Beauty"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_books"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Books"
+                    android:textColor="@color/black" />
+
+                <CheckBox
+                    android:id="@+id/ck_business"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="@font/poppins_regular"
+                    android:padding="2dp"
+                    android:text="Business"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

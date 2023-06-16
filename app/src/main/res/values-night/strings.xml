@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="what_s_your_interests">What\'s your interests?</string>
+    <string name="no_project_found">No Project found</string>
+    <string name="add_project">Add Project</string>
+    <string name="profile">Profile</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="home">Home</string>
+    <string name="submit">Submit</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="project">Project</string>
+</resources>
